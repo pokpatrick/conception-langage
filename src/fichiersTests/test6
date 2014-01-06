@@ -1,0 +1,10 @@
+[
+	PROC carre k =
+		[
+			MOVE k; TURN 90;
+			MOVE k; TURN 90;
+			MOVE k; TURN 90;
+			MOVE k
+		];
+	CALL carre 17
+];

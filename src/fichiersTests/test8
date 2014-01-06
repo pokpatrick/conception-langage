@@ -1,0 +1,14 @@
+[
+	IF NOT FALSE OR FALSE THEN
+		[ 
+			MOVE 10 + 10 + 10; 
+			TURN 180 / 2; 
+			EXIT;
+			MOVE 20 * 2;
+			TURN 300 - 30 
+		] 
+	ELSE 
+		[ 
+			MOVE 50; TURN 90; MOVE 10 
+		] 
+];

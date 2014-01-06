@@ -1,0 +1,6 @@
+[
+	IF 3 < 1 THEN
+		[ MOVE 10; TURN 90; MOVE 50 ] 
+	ELSE 
+		[ MOVE 50; TURN 90; MOVE 10 ] 
+];

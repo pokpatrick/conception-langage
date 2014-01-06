@@ -1,0 +1,16 @@
+[ 
+	PROC rect h w = 
+		[ 
+			MOVE h; TURN 90; 
+			MOVE w; TURN 90; 
+			MOVE h; TURN 90; 
+			MOVE w 
+		]; 
+	MOVE 10;
+	PROC carre w = 
+		[ 
+			CALL rect w w 
+		]; 
+	CALL carre 10;
+	MOVE 40 
+];

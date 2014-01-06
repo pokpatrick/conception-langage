@@ -1,0 +1,5 @@
+[
+	VAR distance;
+	SET distance 80; 
+	MOVE distance
+];

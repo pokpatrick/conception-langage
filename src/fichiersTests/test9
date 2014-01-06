@@ -1,0 +1,1 @@
+[ VAR i; SET i 2; WHILE (i > 0) [ MOVE 10; TURN 90; SET i 1 ] ];
